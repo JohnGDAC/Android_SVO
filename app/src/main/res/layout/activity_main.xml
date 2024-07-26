@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:rotation="90"
+        android:text="@string/button_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:layout_weight="1"
+            android:id="@+id/surfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextureView
+            android:layout_weight="1"
+            android:id="@+id/texturePreview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout >
