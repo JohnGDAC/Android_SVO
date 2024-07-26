@@ -1,6 +1,7 @@
 # README
 This is a project that transplants the SVO(Semi-Direct Visual Odometry) to the Android NDK framework for showing a SLAM AR demo.
-![](./demo.gif)
+
+![demo](demo/svodemo.gif)
 
 **The effect is not good in the platform of Smartphones and it is very easy to lost localization**. Maybe it dues to that my phone's performance is not enough good, or the light intensity and intrinsic of phone's camera are changed arbitrarily. If you are interested, hope you can make some improvement.
 
